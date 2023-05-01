@@ -1,10 +1,11 @@
 import React, { FC } from "react";
 import "./styles.css";
+import odigoLogo from "../../assets/Images/odigo-Logo.svg"
 
 const Header = () => {
   return (
     <div className="head">
-      <img className="logo-1" src="./odigo-Logo.svg" alt="odigo-logo" />
+      <img className="logo-1" src={odigoLogo} alt="odigo-logo" />
       <div className="articles">
         <section className="top-nav">
           <label className="menu-button-container" htmlFor="menu-toggle">

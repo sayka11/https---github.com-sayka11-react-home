@@ -6,6 +6,8 @@
     background-color: transparent;
     gap: 400px;
     margin-left: 120px;
+    position:absolute;
+    z-index: 1;
 }
 .articles {
     display: flex;
